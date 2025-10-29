@@ -11,7 +11,7 @@ import { useInView } from "react-intersection-observer"
 import ScrambleText from "../ScrambleText"
 import Time from "../Time"
 import NavMenu from "../NavMenu"
-import resume from "../../assets/Lavanya_Chand.pdf"
+import resume from "../../assets/Lavanya_Resume.pdf"
 
 export default function Header() {
   const controls = useAnimation()
@@ -100,7 +100,7 @@ export default function Header() {
           </h3>
           <p className="theme--detail">
             <ScrambleText shuffle delay={4}>
-              Hey there!!! I’m Lavanya, a Frontend Developer who loves turning ideas into smooth, interactive apps. Whether it’s coding sleek UIs in React, experimenting with animations, or sketching out designs in Figma, I enjoy blending creativity with clean code. I’m all about building experiences that not only work great but feel great to use
+              Hey there! I’m Lavanya, a Frontend Developer who loves crafting modern, interactive web experiences. I blend creativity with clean code using React, Next.js, and TypeScript while experimenting with animations, AI features, and Figma prototypes to build apps that look great and feel effortless to use.
             </ScrambleText>
           </p>
         </div>

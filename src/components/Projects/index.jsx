@@ -12,6 +12,8 @@ import work2 from "../../assets/Images/work2.png"
 import work3 from "../../assets/Images/work34.png"
 import work4 from "../../assets/Images/work4.png"
 import work5 from "../../assets/Images/work5.png"
+import work6 from "../../assets/Images/work6.png"
+
 
 export default function Projects() {
   const controls = useAnimation()
@@ -38,6 +40,15 @@ export default function Projects() {
       link: "https://social-media-app-gilt-five.vercel.app/",
       github: "https://github.com/LavanyaChand/Social_media_app",
       detail: "Developed an interactive social media platform inspired by Instagram, enabling users to create, edit, like, and save posts, explore content, and view profiles, all within a modern, responsive, and engaging UI.",
+    },
+    {
+      client: "Skinstric AI",
+      year: "2025",
+      img: work6,
+      title: "Skincare, Smarter with AI",
+      link: "https://skinstric-ai-internship-beige.vercel.app/",
+      github: "https://github.com/LavanyaChand/Skinstric_AI_Internship",
+      detail: "Built a privacy-first skincare analysis platform using Next.js, TypeScript, and Zustand powered by OpenAI Vision API. Designed a multi-step onboarding flow and intelligent image analysis system with 98% accuracy in a sleek, responsive UI.",
     },
     {
       client: "Ultraverse NFT World",

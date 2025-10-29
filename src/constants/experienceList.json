@@ -1,46 +1,45 @@
 [
   {
-    "company": "Resilience Inc.,",
+    "company": "Resilience Inc.",
     "role": "Frontend Developer",
     "resps": [
-      "Developing a climate refugee mobile app to connect communities with shelters, jobs, healthcare, and resources during natural disasters.",
-      "Building end-to-end features in React Native, TypeScript, and Material UI, ensuring responsive, scalable, and user-friendly interfaces.",
-      "Collaborating with designers and product managers to translate wireframes into functional flows, integrating APIs, and maintaining clean, reusable code.",
-      "Contributing to accessibility, performance, and cross-platform optimization, supporting the app’s mission-critical use cases."
+      "Developing critical UI features for a climate-refugee support app (emergency updates, location alerts, user outreach) using React Native, TypeScript, and Material UI, ensuring accessibility and scalability.",
+      "Built atomic, reusable components aligned with a shared design system and WCAG 2.1 standards, reducing handoff time by 50% and design revisions by 30%."
     ],
     "date": "July 2025 - Current"
   },
   {
-    "company": "Skinstric AI",
-    "role": "Frontend Engineer",
-    "resps": [
-      "Built a privacy-first skincare analysis platform using Next.js, TypeScript, and Zustand, implementing a multi-step onboarding flow with validation and localStorage that increased user completion rates by 35% and reduced drop-offs during setup.",
-      "Developed a robust image ingestion system using React and the MediaDevices API, supporting both base64 uploads and live selfies, which expanded compatibility across 95% of tested devices and reduced user upload errors by 40%.",
-      "Integrated with Skinstric’s private API powered by OpenAI Vision to process facial images and display demographic, age, and gender predictions with normalized scores and precise formatting for clear user interpretation.",
-      "Designed a responsive, Figma-faithful interface using TailwindCSS and implemented GSAP animations for seamless transitions between loading, analysis, and results, boosting engagement with recommendation cards by 60%.",
-      "Tuned client-server interactions and optimized Next.js Server Components to achieve sub-2-second analysis latency, contributing to an overall detection accuracy of 98% across diverse skin conditions."
-    ],
-    "date": "July 2025 - September 2025"
-  },
-  {
-    "company": "Resilience Inc.,",
+    "company": "Resilience Inc.",
     "role": "UX Designer",
     "resps": [
-      "Designed engaging and intuitive mobile user experiences for a climate refugee app, improving onboarding completion by 60% and significantly reducing user drop-offs.",
-      "Translated complex workflows into wireframes, prototypes, and interactive mockups in Figma, cutting design-to-development cycles by 30%.",
-      "Applied UX principles such as typography, color theory, and responsive layouts to deliver visually cohesive designs, leading to a 45% increase in user engagement with new features.",
-      "Partnered with developers to align design solutions with feasibility and project goals, enabling a 25% faster rollout of mobile features."
+      "Designed Figma wireframes, prototypes, and user flows, reducing onboarding drop-off by 38% and improving completion time by 25%.",
+      "Conducted usability testing and accessibility validation (AXE & Lighthouse) to enhance user experience and ensure inclusive design compliance."
     ],
     "date": "January 2025 - June 2025"
   },
+ 
   {
-    "company": "Resilience Inc.,",
-    "role": "AI Siftware Engineer",
+    "company": "Resilience Inc.",
+    "role": "AI Software Engineer Intern",
     "resps": [
-      "Enhanced AI-driven features for the AIMEE mobile app, improving app stability by 35% through new user-facing functionalities and critical bug fixes.",
-      "Built secure Firebase authentication and user management systems, reducing login errors by 40% and ensuring safe data storage across client and server.",
-      "Developed reusable components and scalable solutions, cutting future development time by 20% while supporting product strategy and roadmap goals."
+      "Engineered Speech Emotion Recognition (SER) models to detect and analyze user emotions in real time, enabling personalized mental health interventions and improving emotion-classification accuracy by 92%.",
+      "Developed AI-driven data pipelines for audio preprocessing, feature extraction, and model deployment using Python, TensorFlow, and Firebase, ensuring seamless integration within the AIMEE mobile app.",
+      "Collaborated with cross-functional teams to fine-tune emotion detection algorithms, optimize inference latency, and enhance the app’s AI responsiveness and user well-being outcomes."
     ],
     "date": "August 2024 - December 2024"
+  },
+   {
+    "company": "Cognizant, India",
+    "role": "Frontend/Software Developer",
+    "resps": [
+      "Delivered enterprise-level React.js and Redux web applications for Fortune 500 clients in retail and finance sectors.",
+      "Migrated legacy codebases from jQuery to React, improving maintainability and performance.",
+      "Integrated RESTful APIs and implemented client-side caching using React Query, boosting page responsiveness.",
+      "Collaborated with backend teams for seamless API integration and data visualization using Chart.js and D3.js.",
+      "Enhanced accessibility compliance (WCAG 2.1) and cross-browser compatibility for large-scale apps.",
+      "Mentored junior developers on React best practices and Git workflows, improving team productivity by 15%.",
+      "Participated in end-to-end SDLC, including requirement gathering, sprint planning, testing, and deployment."
+    ],
+    "date": "July 2019 - December 2022"
   }
 ]

@@ -16,7 +16,7 @@ import Icon from "../Icon"
 import githubIcon from "../../assets/Icon/github.svg"
 import linkedinIcon from "../../assets/Icon/linkedin.svg"
 import fileIcon from "../../assets/Icon/file.svg"
-import resume from "../../assets/Lavanya_Chand.pdf"
+import resume from "../../assets/Lavanya_Resume.pdf"
 
 // jsons
 import technicalSkills from "../../constants/technicalSkills.json"
@@ -97,7 +97,7 @@ export default function Resume() {
             <div className="resume--grid--detail--data--skills">
               <h4>
                 <ScrambleText shuffle delay={0}>
-                  Technical Skills
+                  Professional Skills
                 </ScrambleText>
               </h4>
 
@@ -109,7 +109,7 @@ export default function Resume() {
         <div className="resume--grid--experience">
           <div className="resume--grid--experience--head">
             <p className="theme--detail">
-              <ScrambleText delay={0}>A highly motivated software engineer prepared to utilise exceptional software, problem-solving and communication skills to further my programming passion as a website and app developer.</ScrambleText>
+              <ScrambleText delay={0}>Software Engineer with 5 years of experience building scalable web and mobile applications using React.js, Next.js, React Native, and TypeScript. Skilled in UI/UX design, accessibility (WCAG 2.1), and modern design systems. Experienced in integrating AI features like Speech Emotion Recognition and image analysis using TensorFlow, Firebase, and OpenAI APIs. Strong collaborator focused on creating responsive, high-performance, and user-centric products.</ScrambleText>
             </p>
 
             <motion.h3 initial="hidden" animate={controls} variants={opacityVariant} transition={{ duration: 1, delay: 0.5 }} className="theme--text">

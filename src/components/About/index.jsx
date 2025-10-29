@@ -46,7 +46,7 @@ export default function About() {
       <div ref={ref} className="about--grid">
         <div className="about--bio">
           <h2>
-            <ParaWriting stagger={0.08} text={"I'm a highly motivated software engineer with a strong "} sec={"passion for website and app development"} />
+            <ParaWriting stagger={0.08} text={"I'm a highly motivated software engineer with a strong "} sec={"passion for developing modern web applications"} />
           </h2>
         </div>
 
@@ -64,19 +64,18 @@ export default function About() {
 
         <motion.div initial="hidden" animate={controls} variants={opacityVariant} transition={{ duration: 1, delay: 2 }} onAnimationComplete={() => handleComplete()} className="about--detail">
           <p className="theme--detail--dark">
-            <ScrambleText delay={2}>Currently employed as a Frontend Developer at Resilience Inc., I get to design and build digital experiences that truly make a difference. My work combines clean, scalable code with thoughtful design, making apps that not only function well but feel great to use.
-              With experience in frontend engineering, UX design, and AI-powered solutions, I enjoy solving tricky problems and turning ideas into real, usable products. I’m always learning, always experimenting, and always aiming to create technology that helps people in meaningful ways.</ScrambleText>
+            <ScrambleText delay={2}>Currently employed as a Frontend Developer at Resilience Inc., who loves creating clean, scalable, and user-focused web experiences. With experience in React, Next.js, and AI-powered solutions, I blend design and technology to build products that are both functional and meaningful.</ScrambleText>
           </p>
         </motion.div>
 
         <motion.div initial="hidden" animate={controls} variants={positionVariant} className="about--marquee">
           <h1 draggable="false">
             <InteractiveMarquee wheelFactor={0} speed={1.3}>
-              <span>ABOUT David Bragg</span>
-              <span>ABOUT David Bragg</span>
-              <span>ABOUT David Bragg</span>
-              <span>ABOUT David Bragg</span>
-              <span>ABOUT David Bragg</span>
+              <span>ABOUT LAVANYA CHAND</span>
+              <span>ABOUT LAVANYA CHAND</span>
+              <span>ABOUT LAVANYA CHAND</span>
+              <span>ABOUT LAVANYA CHAND</span>
+              <span>ABOUT LAVANYA CHAND</span>
             </InteractiveMarquee>
           </h1>
         </motion.div>

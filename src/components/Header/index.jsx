@@ -11,7 +11,7 @@ import { useInView } from "react-intersection-observer"
 import ScrambleText from "../ScrambleText"
 import Time from "../Time"
 import NavMenu from "../NavMenu"
-import resume from "../../assets/Lavanya_Resume.pdf"
+import resume from "../../assets/Lavanya_Chand_India.pdf"
 
 export default function Header() {
   const controls = useAnimation()
@@ -75,12 +75,12 @@ export default function Header() {
               GITHUB
             </ScrambleText>
           </a>
-          <span className="header--hash">{"//"}</span>
+          {/* <span className="header--hash">{"//"}</span>
           <a href="https://www.linkedin.com/in/lavanyachand/" target={"_blank"} rel="noopener noreferrer">
             <ScrambleText shuffle delay={1}>
               LINKEDIN
             </ScrambleText>
-          </a>
+          </a> */}
           <span className="header--hash">{"//"}</span>
           <a href={resume} target={"_blank"} rel="noopener noreferrer">
             <ScrambleText shuffle delay={1.5}>

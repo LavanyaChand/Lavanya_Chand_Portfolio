@@ -20,9 +20,9 @@ export default function NavMenu({ isVisible, toggleFunc }) {
     {
       text: "projects",
     },
-    {
-      text: "resume",
-    },
+    // {
+    //   text: "resume",
+    // },
     {
       text: "contact",
     },

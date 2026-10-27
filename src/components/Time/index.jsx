@@ -4,12 +4,16 @@ import ScrambleText from "../ScrambleText"
 export default function Time() {
   // use Intl.DateTimeFormat().resolvedOptions(); to get your own timeZone too
   const myTimeZone = "America/Chicago"
+  // India has a single time zone (IST); its IANA ID is Asia/Kolkata
+  const indiaTimeZone = "Asia/Kolkata"
   const usersTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone
 
   const myTimeZoneText = myTimeZone.split("/")[1]
+  const indiaTimeZoneText = "Hyderabad"
   const userTimeZoneText = usersTimeZone.split("/")[1]
 
   const [myFormatttedTime, setMyFormattedTime] = useState("")
+  const [indiaFormattedTime, setIndiaFormattedTime] = useState("")
   const [userFormattedTime, setUserFormattedTime] = useState("")
 
   const getFormattedTime = (timeZone) => {
@@ -24,7 +28,8 @@ export default function Time() {
 
   const updateClocks = () => {
     setMyFormattedTime(getFormattedTime(myTimeZone))
-    setUserFormattedTime(getFormattedTime(usersTimeZone.timeZone))
+    setIndiaFormattedTime(getFormattedTime(indiaTimeZone))
+    setUserFormattedTime(getFormattedTime(usersTimeZone))
   }
 
   useEffect(() => {
@@ -46,8 +51,13 @@ export default function Time() {
       <ScrambleText shuffle delay={4.2}>
         {myTimeZoneText}
       </ScrambleText>{" "}
-      {myFormatttedTime}
-      {myTimeZoneText !== userTimeZoneText && (
+      {myFormatttedTime}{" "}
+      <span className="header--hash">{"//"}</span>{" "}
+      <ScrambleText shuffle delay={4.2}>
+        {indiaTimeZoneText}
+      </ScrambleText>{" "}
+      {indiaFormattedTime}
+      {usersTimeZone !== myTimeZone && usersTimeZone !== indiaTimeZone && usersTimeZone !== "Asia/Calcutta" && (
         <>
           <span className="header--hash">{"//"}</span>{" "}
           <ScrambleText shuffle delay={4.2}>
